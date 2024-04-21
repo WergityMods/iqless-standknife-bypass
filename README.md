@@ -14,7 +14,7 @@
 ⠻⣿⣆⠘⣿⠀⠀⣀⡁⠀⠈⠙⠛⠋⠉⠀⠀⠀⠀⡀⠤⠚⠁⠄⣠<br><br>
 
 funny anticheat bypass idk<br>
-hook inet_pton = spoof curl request & return "false" for bypass device ban<br>
-hook sleep = turn off all anticheat :D<br>
+hook "inet_pton" = spoof curl request & return "false" for bypass device ban (see also builds/server.py)<br>
+hook "sleep" = turn off all anticheat :D<br>
 
 compile type: Release | x64
